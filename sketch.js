@@ -17,6 +17,8 @@ function draw() {
   sc = second();
 
   angleMode(DEGREES);
+  translate(400,200);
+  rotate(-90);
 
   scAngle = map(sc,0,60,0,360);
   mnAngle = map(mn,0,60,0,360);
